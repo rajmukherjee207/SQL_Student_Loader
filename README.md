@@ -7,7 +7,6 @@ The loader reads Excel sheets, validates data, maintains referential integrity, 
 ---
 ## 📂 Folder Structure
 project/
-
 ├── create_tables.sql # MySQL-compatible schema with FK constraints
 ├── data_loader.py # Python loader script (MySQL version)
 ├── sample_excels/ # Folder for Excel input files
@@ -29,6 +28,7 @@ project/
 │ ├── teacher_payslips.xlsx
 ├── README.md # This documentation
 └── data_loader.log # Log file after running script
+
 ---
 
 ## ⚙️ How to Run the Loader (MySQL/XAMPP)
