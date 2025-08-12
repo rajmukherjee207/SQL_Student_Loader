@@ -5,31 +5,29 @@ This project automates **school setup onboarding** into a clean MySQL database u
 The loader reads Excel sheets, validates data, maintains referential integrity, and ensures all functional requirements are met.
 
 ---
-
 ## 📂 Folder Structure
 project/
-├── create_tables.sql            # MySQL-compatible schema with FK constraints
-├── data_loader.py               # Python loader script (MySQL version)
-├── sample_excels/               # Folder for Excel input files
-│   ├── schools.xlsx
-│   ├── grades.xlsx
-│   ├── sections.xlsx
-│   ├── subjects.xlsx
-│   ├── teachers.xlsx
-│   ├── teacher_section_map.xlsx
-│   ├── students.xlsx
-│   ├── student_academic_map.xlsx
-│   ├── attendance.xlsx
-│   ├── class_diary.xlsx
-│   ├── homework.xlsx
-│   ├── timetable.xlsx
-│   ├── fees.xlsx
-│   ├── fee_payments.xlsx
-│   ├── teacher_salary_structure.xlsx
-│   ├── teacher_payslips.xlsx
-├── README.md                    # This documentation
-└── data_loader.log               # Log file after running script
-
+├── create_tables.sql # MySQL-compatible schema with FK constraints
+├── data_loader.py # Python loader script (MySQL version)
+├── sample_excels/ # Folder for Excel input files
+│ ├── schools.xlsx
+│ ├── grades.xlsx
+│ ├── sections.xlsx
+│ ├── subjects.xlsx
+│ ├── teachers.xlsx
+│ ├── teacher_section_map.xlsx
+│ ├── students.xlsx
+│ ├── student_academic_map.xlsx
+│ ├── attendance.xlsx
+│ ├── class_diary.xlsx
+│ ├── homework.xlsx
+│ ├── timetable.xlsx
+│ ├── fees.xlsx
+│ ├── fee_payments.xlsx
+│ ├── teacher_salary_structure.xlsx
+│ ├── teacher_payslips.xlsx
+├── README.md # This documentation
+└── data_loader.log # Log file after running script
 ---
 
 ## ⚙️ How to Run the Loader (MySQL/XAMPP)
