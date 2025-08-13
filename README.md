@@ -129,4 +129,5 @@ SELECT teacher_id, month_year
 FROM ss_t_teacher_salary_payslip;
 ```
 School Onboarding SQL + Excel Loader
+
 https://github.com/user-attachments/assets/00975b68-a863-460c-850e-2feafe5b1cea
